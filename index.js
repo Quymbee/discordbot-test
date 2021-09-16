@@ -32,6 +32,8 @@ client.on("message", (message) => {
     client.commands.get("ping").execute(message, args);
   } else if (command === "youtube") {
     client.commands.get("youtube").execute(message, args);
+  } else if (command === "quotes") {
+    client.commands.get("quotes").execute(message, args);
   }
 });
 
